@@ -51,16 +51,10 @@ void addIntToStartOfList(LinkedList *list, int value)
   }
 
   // Add code for this.
-  // HINTS:
-  //  You will need to allocate a new Node.
-  //  You will need two cases just as in addIntToEndOfList,
-  //  one for when list->head is NULL and another for when it is not.
-  // You need to consider how to make sure that list->head changes to point to the new node
-  // that you allocated.  And you will need to make sure that when you are done,
-  // that if the new node is now the ONLY thing on the list, that tail points to it also,
-  // and that the new node is pointing to NULL.
-  // Otherwise, you'll need to be sure that
-  //   if it is the only node on the list, or to the "old" head if there
+  // HINT:
+  // consider all edge cases such as when list->head is or is not null AND
+  // consider all edge cases such as when list->tail is or is not null.
+  // Visualizing the problem with a box and pointer diagram can help.
 }
 
 // list: ptr to a linked list of Node (each with int data, and Node * next)
